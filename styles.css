@@ -12,7 +12,7 @@
   line-height: 17px;
   color: #131313;
 }
-.comtainer {
+.container {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 20px;
@@ -58,4 +58,27 @@ a{
   background-color: #131313;
   color: #ffff;
   transition: all  .7s;
+}
+
+/* __menu__ */
+
+.bike {
+  padding: 100px 0 150px;
+}
+
+.bike__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bike__colomn-slider{
+  flex-basis: 630px;
+  margin-left: 30px;
+}
+
+.bike__title {
+  line-height: 77px;
+  font-size: 62px;
+  font-weight: 700;
+  margin: 60px 0 5px;
 }
