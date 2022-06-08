@@ -1,34 +1,36 @@
 *,
 *::after,
-*::after{
+*::after {
   box-sizing: border-box;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:ital,wght@1,300&display=swap');
 
-.body{
+.body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #131313;
 }
+
 .container {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-ul{
+ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-li{
+li {
   padding: 0;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
@@ -41,11 +43,11 @@ a{
   align-items: center;
 }
 
-.menu{
+.menu {
   margin-right: 70px;
 }
 
-.menu__item + .menu__item{
+.menu__item+.menu__item {
   padding-left: 10px;
 }
 
@@ -57,7 +59,7 @@ a{
 .menu__link:hover {
   background-color: #131313;
   color: #ffff;
-  transition: all  .7s;
+  transition: all .7s;
 }
 
 /* __menu__ */
@@ -71,7 +73,7 @@ a{
   justify-content: space-between;
 }
 
-.bike__colomn-slider{
+.bike__colomn-slider {
   flex-basis: 630px;
   margin-left: 30px;
   max-width: 630px;
@@ -92,7 +94,7 @@ a{
   color: #6f6f6f;
 }
 
-.bike__tixt{
+.bike__tixt {
   min-width: 420px;
   margin-bottom: 20px;
 }
@@ -110,16 +112,16 @@ a{
   letter-spacing: 1.1em;
 }
 
-.bike-slider .slick-dots{
+.bike-slider .slick-dots {
   right: 0;
   top: 52px;
 }
 
 .slick-dots {
-position: absolute;
+  position: absolute;
 }
 
-.slick-dots li + li {
+.slick-dots li+li {
   padding-top: 10px;
 }
 
@@ -128,17 +130,35 @@ position: absolute;
   padding: 0;
   border: none;
   background-color: #131313;
-  width: 4px;
+  width: 3px;
   height: 25px;
   border-radius: 3px;
   cursor: pointer;
   transition: all .3s;
 }
 
-
-
-.slick-active  button,
+.slick-active button,
 .slick-dots button:hover {
   background-color: #ff4040;
-  transition-property: all;
+}
+
+.bike__list{
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bike__list-item {
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  min-width: 160px;
+}
+
+.bike__list-item span{
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: lowercase;
 }
