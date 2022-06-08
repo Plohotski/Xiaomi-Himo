@@ -35,6 +35,10 @@ a {
   color: inherit;
 }
 
+p {
+  margin: 0;
+}
+
 /* _header_ */
 
 .header__inner {
@@ -54,6 +58,9 @@ a {
 .menu__link {
   padding: 43px 20px;
   text-transform: uppercase;
+  -webkit-transition: 0.7s ease;
+  -moz-transition: 0.7s ease;
+  -o-transition: 0.7s ease;
 }
 
 .menu__link:hover {
@@ -88,19 +95,25 @@ a {
 
 .bike__subtitle {
   margin: 0 0 60px;
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 400;
   line-height: 39px;
   color: #6f6f6f;
 }
 
 .bike__tixt {
-  min-width: 420px;
+  max-width: 420px;
+  letter-spacing: 0.8px;
   margin-bottom: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
 }
 
 .bike__link {
-  margin-top: 80px;
+  margin-top: 75px;
   display: inline-block;
   background-color: #131313;
   color: #fff;
@@ -110,6 +123,14 @@ a {
   padding: 28px calc(81px - 1.1em);
   text-indent: 1.1em;
   letter-spacing: 1.1em;
+  -webkit-transition: 0.7s ease;
+  -moz-transition: 0.7s ease;
+  -o-transition: 0.7s ease; 
+}
+
+.bike__link:hover {
+  background-color: #ff4040;
+  transition: all .7s;
 }
 
 .bike-slider .slick-dots {
@@ -149,16 +170,22 @@ a {
 }
 
 .bike__list-item {
-  text-align: center;
-  font-weight: 700;
-  text-transform: uppercase;
   min-width: 160px;
+  min-height: 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.bike__list-item span{
-  display: block;
+.bike__list-num{
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bike__list-text {
+  text-align: center;
+  margin: auto 0;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  text-transform: lowercase;
 }
