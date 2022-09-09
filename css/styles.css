@@ -305,3 +305,147 @@ p {
 .slider__item {
   padding-left: 50px;
 }
+
+.prise {
+  margin-bottom: 100px;
+}
+
+.prise__inner {
+  position: relative;
+}
+
+form {
+  max-width: 420px;
+}
+
+.form__titel {
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.form__text {
+  max-width: 300px;
+  margin-bottom: 30px;
+}
+
+.form__input-name,
+.form__input-phone {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #6f6f6f;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.form__input-name::placeholder,
+.form__input-phone::placeholder,
+.form__imput-text {
+  color: #6f6f6f;
+  opacity: 0.5;
+}
+
+.form__imput-text {
+  margin-bottom: 10px;
+}
+
+.form__label-box {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.form__label + .form__label {
+  padding-left: 23px;
+}
+
+.form__input-radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.form__input-radio:checked + .form__bike {
+  display: block;
+}
+
+.form__bike {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.form__radio-style {
+  border-radius: 30px;
+  width: 80px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.form__radio-style:hover {
+  background-color: #131313;
+}
+
+.form__radio-style--grey {
+  background-color: #6f6f6f;
+}
+
+.form__radio-style--white {
+  background-color: #fff;
+  border: 1px solid #6f6f6f;
+}
+
+.form__radio-style--red {
+  background-color: #ff4040;
+}
+
+.form__btn {
+  background-color: #131313;
+  padding: 28px 71px 28px 81px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+  cursor: pointer;
+  -webkit-transition: 0.7s ease;
+  -moz-transition: 0.7s ease;
+  -o-transition: 0.7s ease;
+}
+
+.form__btn:hover {
+  background-color: #ff4040;
+}
+
+.form__bike-prise {
+  width: 200px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #ff4040;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 32px;
+  line-height: 39px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%);
+}
+
+.form__bike-prise::after {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #ff4040;
+  top: 12px;
+  left: 0;
+}
