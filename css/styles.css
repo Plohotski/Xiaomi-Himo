@@ -60,7 +60,7 @@ p {
   margin-right: 70px;
 }
 
-.menu__item+.menu__item {
+.menu__item + .menu__item {
   padding-left: 10px;
 }
 
@@ -75,7 +75,7 @@ p {
 .menu__link:hover {
   background-color: #131313;
   color: #ffff;
-  transition: all .7s;
+  transition: all 0.7s;
 }
 
 /* __menu__ */
@@ -113,14 +113,14 @@ p {
 
 .bike__tixt {
   max-width: 420px;
-  font-family: 'Inter', sans-serif;;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 120%;
 }
 
-.bike__tixt  + .bike__tixt {
+.bike__tixt + .bike__tixt {
   padding-top: 20px;
 }
 
@@ -137,12 +137,12 @@ p {
   letter-spacing: 1.1em;
   -webkit-transition: 0.7s ease;
   -moz-transition: 0.7s ease;
-  -o-transition: 0.7s ease; 
+  -o-transition: 0.7s ease;
 }
 
 .bike__link:hover {
   background-color: #ff4040;
-  transition: all .7s;
+  transition: all 0.7s;
 }
 
 .bike-slider .slick-dots {
@@ -154,7 +154,7 @@ p {
   position: absolute;
 }
 
-.slick-dots li+li {
+.slick-dots li + li {
   padding-top: 10px;
 }
 
@@ -167,7 +167,7 @@ p {
   height: 25px;
   border-radius: 3px;
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .slick-active button,
@@ -175,7 +175,7 @@ p {
   background-color: #ff4040;
 }
 
-.bike__list{
+.bike__list {
   margin-top: 25px;
   display: flex;
   justify-content: space-around;
@@ -189,7 +189,7 @@ p {
   align-items: center;
 }
 
-.bike__list-num{
+.bike__list-num {
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -220,7 +220,7 @@ p {
   flex-basis: 490px;
 }
 
-.info__items +.info__items {
+.info__items + .info__items {
   padding-top: 50px;
 }
 .info__item-titl {
@@ -277,12 +277,12 @@ p {
   font-weight: 700;
 }
 
-.haracteristics__line{
+.haracteristics__line {
   display: flex;
   padding-top: 5px;
 }
 
-.haracteristics__name{
+.haracteristics__name {
   flex-basis: 285px;
   padding-right: 25px;
   font-size: 14px;
@@ -291,4 +291,17 @@ p {
 .haracteristics__discr {
   flex-basis: 285px;
   font-size: 14px;
+}
+
+.slider {
+  margin-bottom: 50px;
+}
+
+.slider__items .slick-dots {
+  top: 0;
+  left: 0;
+}
+
+.slider__item {
+  padding-left: 50px;
 }
