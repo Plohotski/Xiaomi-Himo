@@ -449,3 +449,57 @@ form {
   top: 12px;
   left: 0;
 }
+
+.footer {
+  width: 1920px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #131313;
+}
+
+.footer__social {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.footer__contact,
+.footer__lik {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: lowercase;
+  color: #ffffff;
+}
+
+.footer__lik {
+  text-decoration: revert;
+}
+
+.footer__contact-mail,
+.footer__contact-tel {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+
+/* .footer__contact-tel {
+  margin-top: 6px;
+} */
+
+.footer__contact-link {
+  padding-left: 6px;
+}
+
+.footer__lik:hover,
+.footer__inst-logo:hover,
+.footer__facebook-logo:hover,
+.footer__contact-tel:hover,
+.footer__contact-mail:hover {
+  filter: invert(46%) sepia(38%) saturate(5878%) hue-rotate(336deg)
+    brightness(101%) contrast(103%);
+}
